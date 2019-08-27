@@ -3,14 +3,14 @@ This is the implemention of  named entity recogntion model.  It includes lstm, l
 
 Model|F1|
 --|:--:   
-lstm|88.30  
-lstm+char|   
-lstm+crf|89.59
-lstm+char+crf|90.86   
-cnn|87.95   
-cnn+char|   
-cnn+crf|88.22   
-cnn+char+crf|90.22  
+LSTM|88.30  
+LSTM+char|   
+LSTM+CRF|89.59
+LSTM+char+CRF|90.86   
+CNN|87.95   
+CNN+char|   
+CNN+CRF|88.22   
+CNN+char+CRF|90.22  
 
 ## reference
 * https://github.com/jiesutd/NCRFpp
