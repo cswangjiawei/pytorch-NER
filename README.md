@@ -4,11 +4,11 @@
 Model|F1|
 --|:--:   
 LSTM|88.30  
-LSTM+char|   
+LSTM+char|90.07   
 LSTM+CRF|89.59
 LSTM+char+CRF|90.86   
 CNN|87.95   
-CNN+char|   
+CNN+char|89.97   
 CNN+CRF|88.22   
 CNN+char+CRF|90.22    
   
