@@ -12,7 +12,7 @@ CNN+char|
 CNN+CRF|88.22   
 CNN+char+CRF|90.22    
   
-#requirements  
+## requirements  
 * pytorch 1.0  
 * tensorboardX  
 
