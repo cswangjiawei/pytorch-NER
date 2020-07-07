@@ -9,7 +9,7 @@ from dataset import MyDataset
 from torch.utils.data import DataLoader
 from model import NamedEntityRecog
 import torch.optim as optim
-from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 from train import train_model, evaluate
 
 seed_num = 42
@@ -42,7 +42,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     use_gpu = torch.cuda.is_available()
     print('use_crf:', args.use_crf)
-    print('use_crf_type:', type(args.use_crf))
 
     if not os.path.exists(args.savedir):
         os.makedirs(args.savedir)
